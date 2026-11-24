@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-11-23T22:14:52.402527+00:00",
+  "platform": {
+    "os": "macOS",
+    "version": "26.6.2",
+    "machine": "arm64",
+    "python": "3.11.8"
+  },
+  "wifi_interface": "en0",
+  "default_gateway": "192.168.0.1",
+  "default_route_interface": "en0",
+  "ping_local": {
+    "host": "192.168.0.1",
+    "sent": 10,
+    "received": 10,
+    "loss_pct": 0.0,
+    "rtt_min_ms": 3.15,
+    "rtt_median_ms": 4.91,
+    "rtt_max_ms": 9.57,
+    "status": "available"
+  },
+  "ping_external": {
+    "host": "1.1.1.1",
+    "sent": 10,
+    "received": 10,
+    "loss_pct": 0.0,
+    "rtt_min_ms": 15.48,
+    "rtt_median_ms": 17.62,
+    "rtt_max_ms": 26.64,
+    "status": "available"
+  },
+  "ping_lan_server": {
+    "host": "192.168.0.139",
+    "sent": 10,
+    "received": 0,
+    "loss_pct": 100.0,
+    "rtt_min_ms": null,
+    "rtt_median_ms": null,
+    "rtt_max_ms": null,
+    "status": "unavailable"
+  },
+  "radio": {
+    "status": "available",
+    "interface": "en0",
+    "fields": {
+      "signal_rssi": "available",
+      "noise": "available",
+      "tx_rate": "available",
+      "channel": "available",
+      "ssid_bssid": "unavailable"
+    },
+    "latest": {
+      "rssi_dbm": -53,
+      "noise_dbm": -92,
+      "tx_rate_mbps": 816.0,
+      "tx_power_mw": 1496,
+      "channel": 44,
+      "channel_band": "5GHz",
+      "channel_width_mhz": 80,
+      "phy_mode": "802.11ax"
+    },
+    "rssi_range_dbm": [
+      -54,
+      -52
+    ],
+    "snr_db": 39,
+    "read_time_ms_median": 9.8
+  },
+  "interface_counters": {
+    "status": "available",
+    "ipkts": 255973722,
+    "ierrs": 0,
+    "opkts": 167292594,
+    "oerrs": 0
+  },
+  "iperf3": "/opt/homebrew/bin/iperf3",
+  "unavailable": [
+    "wireless_retries",
+    "channel_utilization",
+    "associated_devices"
+  ]
+}

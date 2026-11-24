@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dashboard",
+      "runtimeExecutable": ".venv/bin/streamlit",
+      "runtimeArgs": ["run", "dashboard/app.py", "--server.headless", "true", "--server.port", "8501"],
+      "port": 8501
+    },
+    {
+      "name": "dashboard-synthetic",
+      "runtimeExecutable": ".venv/bin/streamlit",
+      "runtimeArgs": ["run", "dashboard/app.py", "--server.headless", "true", "--server.port", "8502", "--", "--db", "/private/tmp/claude-501/-Users-darinvu-SDSU-CS-576-final-project/07f75e15-4fbf-4e6c-b909-8a1232a65eb4/scratchpad/synth.db"],
+      "port": 8502
+    }
+  ]
+}

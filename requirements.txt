@@ -1,0 +1,5 @@
+pyobjc-framework-CoreWLAN
+streamlit
+pandas
+altair
+matplotlib
